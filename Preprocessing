@@ -1,0 +1,14 @@
+#Import libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+#Reading in the datasets
+#test data
+test_data = pd.read_csv(r"C:\Users\Administrator\Downloads\aug_test.csv")
+test_data.head(5)
+
+#train data
+train_data = pd.read_csv(r"C:\Users\Administrator\Downloads\aug_train.csv")
+train_data.head(5)
