@@ -12,3 +12,8 @@ test_data.head(5)
 #train data
 train_data = pd.read_csv(r"C:\Users\Administrator\Downloads\aug_train.csv")
 train_data.head(5)
+
+#Data types
+train_data.dtypes
+
+test_data.dtypes
