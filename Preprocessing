@@ -17,3 +17,7 @@ train_data.head(5)
 train_data.dtypes
 
 test_data.dtypes
+
+#Looking for any missing values
+train_data.isnull().sum()
+test_data.isnull().sum()
